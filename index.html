@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Web MoCap</title>
+<style>html,body{margin:0;height:100%;background:#0b0d12;color:#cfd6e4;font:13px system-ui;overflow:hidden}
+#c{position:fixed;inset:0;width:100%;height:100%}#cam{position:fixed;right:12px;bottom:12px;width:240px;border-radius:8px;opacity:.9}
+#ui{position:fixed;left:12px;top:12px;background:#151a24cc;padding:12px;border-radius:10px;display:grid;gap:8px;width:230px}
+#drop{border:1px dashed #556;padding:14px;text-align:center;border-radius:8px}label{display:flex;justify-content:space-between;gap:8px}
+button{background:#3b6cff;color:#fff;border:0;padding:7px;border-radius:6px;cursor:pointer}</style></head>
+<body><canvas id="c"></canvas><video id="cam" autoplay muted playsinline></video>
+<div id="ui"><b>Web MoCap</b><div id="drop">Drop a rigged GLB here (Mixamo names)</div>
+<button id="start">Start camera</button>
+<label>Mirror <input id="mirror" type="checkbox" checked></label>
+<label>Smoothing <input id="smooth" type="range" min="0.05" max="1" step="0.05" value="0.4"></label>
+<label>Mode <select id="mode"><option value="full">Full body</option><option value="upper">Upper body</option><option value="hands">Hands only</option><option value="face">Face only</option></select></label><button id="calib">Calibrate T-pose (2s)</button><label>Legs (IK) <input id="legs" type="checkbox"></label><label>Foot lock <input id="lock" type="checkbox" checked></label><label>Root motion <input id="root" type="checkbox"></label><label>IK hands <input id="ikarms" type="checkbox"></label><label>Hands &amp; fingers <input id="hands" type="checkbox" checked></label><label>Face &amp; head <input id="face" type="checkbox" checked></label><label>Flip finger curl <input id="flip" type="checkbox"></label><div id="stats">–</div><div id="msg"></div></div>
+<script type="module" src="/src/main.ts"></script></body></html>
