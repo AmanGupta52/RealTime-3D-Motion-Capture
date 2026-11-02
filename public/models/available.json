@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Ashtra",
+    "path": "../models/test.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "Hanako",
+    "path": "../models/three-vrm-girl.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "VAL",
+    "path": "../models/VAL.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "Sendagaya",
+    "path": "../models/shibu_sendagaya.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "Amaris",
+    "path": "../models/SampleA.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "Natsuki",
+    "path": "../models/SampleB.vrm",
+    "type": "vrm"
+  },
+  {
+    "name": "IceDwen",
+    "path": "../models/bdd.glb",
+    "type": "glb"
+  },
+  {
+    "name": "Mousey",
+    "path": "../models/Mousey.fbx",
+    "type": "fbx"
+  },
+  {
+    "name": "Vanguard",
+    "path": "../models/Vanguard.fbx",
+    "type": "fbx"
+  }
+]
